@@ -1,117 +1,37 @@
-# Maulana Kayyis Purnadiva
+# Hi, I'm Alan 👋
 
-> **Turning ambiguity into working systems.**  
-> Fullstack · AI Infrastructure · Digital Problem Solver
+Fullstack engineer based in Bandung, Indonesia — also known as **lanss.id**.
 
----
+## The short story
 
-### This is not just code.
+I started at a vocational high school for software engineering, then interned my way straight into production systems — building a microservice API for Indonesia's Ministry of Religious Affairs (Kemenag) before I'd even finished a degree. These days I'm putting more energy into shipping real projects than into finishing my CS degree at BINUS, and honestly, most of what I actually know came from things that had to work in production, not from a syllabus.
 
-I approach problems as an **end-to-end system builder** — not an engineer waiting for specs. Ambiguity is welcome. If the problem is unclear, I clarify it. If no system exists, I build from scratch. If one does, I make it more efficient.
+For the past 3–4 years I've moved between freelance and contract work: government dashboards that are still running today, a corruption-monitoring tool nobody asked me to build but I built anyway, a full banking app just to prove I could pull it off end-to-end, and an AI trading bot that taught me more about infrastructure than any course ever did.
 
-**My loop:**
+I lean on AI tools heavily in how I build — Claude, RAG pipelines, automation — not as a gimmick, but because it lets one person move faster and cover more ground. Everything below, I built and shipped myself.
 
-```mermaid
-flowchart LR
-    A[Ambiguity] --> B[Research]
-    B --> C[Prototype]
-    C --> D[Production]
-    D --> E[Iterate]
-    E -.-> B
-    style A fill:#0a0a0a,stroke:#dc2626,color:#e5e5e5
-    style B fill:#0a0a0a,stroke:#dc2626,color:#e5e5e5
-    style C fill:#0a0a0a,stroke:#dc2626,color:#e5e5e5
-    style D fill:#dc2626,stroke:#dc2626,color:#0a0a0a
-    style E fill:#0a0a0a,stroke:#dc2626,color:#e5e5e5
-```
-
----
-
-## What I've Built
-
-### 🧠 AI Agent Infrastructure
-
-Deployed LLM orchestration systems in production — Anthropic API, RAG pipelines, autonomous agent workflows (n8n). My **DeMek squad** (Lily/Dodo/Koko) works as an AI-powered dev team doing code review, planning, and deployment.
-
-```mermaid
-flowchart LR
-    subgraph Hermes["Hermes Agent"]
-        direction LR
-        L[Lily - Frontend] 
-        D[Dodo - Backend]
-        K[Koko - DevSecOps]
-    end
-    L --> Code
-    D --> Code
-    K --> Code
-    Code --> Review
-    Review --> Deploy
-    style Hermes fill:#0a0a0a,stroke:#dc2626,color:#e5e5e5
-```
-
-### 📊 Fullstack Applications
-
-Next.js + React + Node.js — from a corruption monitoring dashboard to a banking platform. TypeScript end-to-end. Deployed on Vercel + AWS.
-
-### 🏗️ System Architecture
-
-REST/GraphQL APIs, PostgreSQL schema design, microservices in Laravel and NestJS. Production systems for Indonesian government ministries (Kemenag, Kemendag) running 24/7.
-
-### ☁️ Infrastructure & DevOps
-
-AWS EC2, Docker, Cloudflare Tunnel, Tailscale mesh, GitHub Actions CI/CD. All services self-hosted — cost-efficient, security-hardened.
-
-> **Cost-kere principle:** microservice architecture on low-cost instances. No over-provisioning. Every dollar justifies itself.
-
----
-
-## Stack
+## What I work with
 
 ```
-Frontend:   TypeScript · React · Next.js · Tailwind CSS · Framer Motion
-Backend:    Node.js · NestJS · Express · Laravel · REST · GraphQL
-AI/LLM:     Claude API · RAG · n8n · Prompt Engineering · Agent Workflows
-Cloud:      AWS · Docker · Vercel · Cloudflare · Oracle Cloud
-Databases:  PostgreSQL · SQLite · MySQL · Supabase
-Tools:      Git · CI/CD (GitHub Actions) · Postman · Figma
+Frontend    TypeScript · React · Next.js · Tailwind CSS
+Backend     Node.js · NestJS · Express · Laravel
+AI/LLM      Claude API · RAG (pgvector) · n8n automation
+Infra       Docker · AWS · Oracle Cloud · Cloudflare · Vercel
+Database    PostgreSQL · Supabase · MySQL · SQLite
 ```
 
----
+## Projects
 
-## Why I'm Different
+| Project | What it is |
+|---|---|
+| **Trading Holic** | AI-powered Telegram bot for forex chart analysis — Claude Vision API, self-hosted on Oracle Cloud, migrated solo from AWS to keep it running on a shoestring |
+| **Koruptor Watchlist** | Dark-mode dashboard tracking Indonesian corruption cases, aggregating news and official sources like KPK |
+| **Banking App** | Full-stack banking platform — account management, transfers, real-time tracking, TypeScript end-to-end |
+| **Government Systems** | Production dashboards and APIs built for Kemenag and Kemendag — still live, still running |
 
-1. **AI-driven is not a buzzword** — I deploy LLM agents in production, not just ChatGPT sessions. My agent infrastructure includes autonomous code review, deployment orchestration, and self-improving workflows.
+## Currently
 
-2. **Broke but scalable** — cost-efficient architecture on free-tier friendly instances. Microservice-ready without the enterprise tax.
+Looking for remote fullstack / AI infrastructure roles. If you've got a problem that's more "figure it out" than "follow the spec," that's usually where I do my best work.
 
-3. **Problem-first, tech-second** — I choose the stack that fits the problem. If a spreadsheet solves it, I use a spreadsheet.
-
-4. **Security-by-default** — all credentials in Bitwarden. Zero hardcoding. UFW, iptables, Cloudflare Tunnel — minimum attack surface.
-
----
-
-## Projects worth a look
-
-| Project | What It Does |
-|---------|-------------|
-| [hermes-infra](https://github.com/lanss-id/hermes-infra) | Infrastructure-as-code for a multi-service AI agent system (Hermes + 9Router + OpenWA), single-instance deployment behind Cloudflare Tunnel |
-| [koruptor-watchlist-ui](https://github.com/lanss-id/koruptor-watchlist-ui) | Dark-mode monitoring dashboard for corruption cases — Next.js, ApexCharts, Taste-Silk UI |
-| [banking-app](https://github.com/lanss-id/banking-app) | Full-stack banking platform — account management, transfers, real-time tracking (TypeScript end-to-end) |
-| Trading Bot | Automated signal + execution system using Claude API + RAG pipeline, self-hosted on Oracle Cloud & AWS |
-
----
-
-## Reach me
-
-- GitHub: [lanss-id](https://github.com/lanss-id)
-- Email: maulanakayyis354@gmail.com  
-- LinkedIn: [lanss.id](https://linkedin.com/in/lanss-id)
-
-```diff
-+ Currently open to remote fullstack / AI infrastructure roles
-+ PST-overlap availability
-```
-
----
-
-*If you read this far: I'm looking for interesting problems. Got one? Let's talk.*
+📫 maulanakayyis354@gmail.com
+🔗 [github.com/lanss-id](https://github.com/lanss-id) · [linkedin.com/in/lanss-id](https://linkedin.com/in/lanss-id)
