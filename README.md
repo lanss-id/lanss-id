@@ -1,31 +1,3 @@
-```mermaid
-%%{
-  init: {
-    'theme': 'base',
-    'themeVariables': {
-      'primaryColor': '#0a0a0a',
-      'primaryTextColor': '#e5e5e5',
-      'primaryBorderColor': '#dc2626',
-      'lineColor': '#dc2626',
-      'fontFamily': 'JetBrains Mono, Inter, system-ui',
-      'background': '#0a0a0a',
-      'tertiaryColor': '#dc2626'
-    }
-  }
-}%%
-flowchart LR
-    A[Ambiguity] --> B[Research]
-    B --> C[Prototype]
-    C --> D[Production]
-    D --> E[Iterate]
-    E -.-> B
-    style A fill:#0a0a0a,stroke:#dc2626,color:#e5e5e5
-    style B fill:#0a0a0a,stroke:#dc2626,color:#e5e5e5
-    style C fill:#0a0a0a,stroke:#dc2626,color:#e5e5e5
-    style D fill:#dc2626,stroke:#dc2626,color:#0a0a0a
-    style E fill:#0a0a0a,stroke:#dc2626,color:#e5e5e5
-```
-
 # Maulana Kayyis Purnadiva
 
 > **Turning ambiguity into working systems.**  
