@@ -1,37 +1,67 @@
-# Hi, I'm Alan 👋
+<p align="center">
+  <picture>
+    <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="./assets/hero/builder-profile-mobile-dark.svg">
+    <source media="(max-width: 760px)" srcset="./assets/hero/builder-profile-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero/builder-profile-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero/builder-profile-light.svg">
+    <img src="./assets/hero/builder-profile-dark.svg" alt="Maulana Kayyis Purnadiva, fullstack engineer" width="100%">
+  </picture>
+</p>
 
-Fullstack engineer based in Bandung, Indonesia — also known as **lanss.id**.
+<p align="center">
+  <a href="https://mkp.dev"><strong>View Portfolio</strong></a>
+</p>
 
-## The short story
+## Hey, I'm Alan
 
-I started at a vocational high school for software engineering, then interned my way straight into production systems — building a microservice API for Indonesia's Ministry of Religious Affairs (Kemenag) before I'd even finished a degree. These days I'm putting more energy into shipping real projects than into finishing my CS degree at BINUS, and honestly, most of what I actually know came from things that had to work in production, not from a syllabus.
+I'm a **fullstack engineer** based in Bandung, Indonesia — also known as **lanss.id**. I started at a vocational high school for software engineering and interned my way straight into production systems, building a microservice API for Indonesia's Ministry of Religious Affairs before I'd even finished a degree.
 
-For the past 3–4 years I've moved between freelance and contract work: government dashboards that are still running today, a corruption-monitoring tool nobody asked me to build but I built anyway, a full banking app just to prove I could pull it off end-to-end, and an AI trading bot that taught me more about infrastructure than any course ever did.
+For the past 3–4 years I've moved between freelance and contract work: government dashboards that are still running today, a corruption-monitoring dashboard nobody asked me to build but I built anyway, and an AI trading bot that taught me more about infrastructure than any course ever did. I lean on AI tools heavily in how I build — Claude, RAG pipelines, automation — not as a gimmick, but because it lets one person move faster and cover more ground.
 
-I lean on AI tools heavily in how I build — Claude, RAG pipelines, automation — not as a gimmick, but because it lets one person move faster and cover more ground. Everything below, I built and shipped myself.
+## What I Build
 
-## What I work with
+- **Fullstack engineering:** from interface to backend, integrations, deployment, and QA — mostly solo, end to end.
+- **AI products:** tool-using agents, RAG pipelines, and automation that keep a human in control.
+- **Government systems:** production dashboards and Go microservices built for real institutions, still running.
+- **Applied ML:** clustering and classification work on real datasets, not just tutorials.
 
-```
-Frontend    TypeScript · React · Next.js · Tailwind CSS
-Backend     Node.js · NestJS · Express · Laravel
-AI/LLM      Claude API · RAG (pgvector) · n8n automation
-Infra       Docker · AWS · Oracle Cloud · Cloudflare · Vercel
-Database    PostgreSQL · Supabase · MySQL · SQLite
-```
+## Selected Work
 
-## Projects
+| Project | What it is | My role · Current state |
+| --- | --- | --- |
+| [**Trading Holic**](https://github.com/lanss-id/Trading_Holic_Bot) | AI-powered Telegram bot for forex chart analysis, reading chart screenshots through Claude Vision and self-hosted on Oracle Cloud. | Solo Builder<br>Live · Self-hosted |
+| [**Koruptor Watchlist**](https://github.com/lanss-id/koruptor-watchlist-ui) · [Live](https://koruptor-watchlist-ui.vercel.app) | Dashboard tracking Indonesian corruption cases, aggregating news and official sources like KPK. | Solo Builder<br>Public Beta |
+| **Government Budget Dashboard** | Go microservices and dashboards built for Kemenag and Kemendag budget tracking. Confidential client, not public. | Backend Engineer · Freelance<br>Production |
+| [**Portfolio**](https://github.com/lanss-id/simple-portofolio) · [Live](https://portofolio-chi-teal-30.vercel.app) | Case-study driven portfolio built to international remote-hiring standards, moving to a custom mkp.dev domain. | Solo Builder<br>Live · Migrating domain |
+| [**Bank Transaction Clustering**](https://github.com/lanss-id/clusternawasenafamiliaurban) · [Live](https://clusternawasenafamiliaurban.vercel.app) | Clusters and classifies bank transaction data to surface fraud-risk patterns, submitted as a Dicoding ML capstone. | Solo Builder<br>Completed |
 
-| Project | What it is |
-|---|---|
-| **Trading Holic** | AI-powered Telegram bot for forex chart analysis — Claude Vision API, self-hosted on Oracle Cloud, migrated solo from AWS to keep it running on a shoestring |
-| **Koruptor Watchlist** | Dark-mode dashboard tracking Indonesian corruption cases, aggregating news and official sources like KPK |
-| **Banking App** | Full-stack banking platform — account management, transfers, real-time tracking, TypeScript end-to-end |
-| **Government Systems** | Production dashboards and APIs built for Kemenag and Kemendag — still live, still running |
+## What I'm Exploring
 
-## Currently
+I'm interested in AI systems that actually use tools and touch real infrastructure, not just generate text — agents, RAG pipelines, and automation that hold up in production, not just in a demo.
 
-Looking for remote fullstack / AI infrastructure roles. If you've got a problem that's more "figure it out" than "follow the spec," that's usually where I do my best work.
+Government and freelance work taught me the deeper constraints. Solo side projects are how I test ideas against them without waiting for permission.
 
-📫 maulanakayyis354@gmail.com
-🔗 [github.com/lanss-id](https://github.com/lanss-id) · [linkedin.com/in/lanss-id](https://linkedin.com/in/lanss-id)
+## Tools I Use
+
+`TypeScript` · `React` · `Next.js` · `Node.js` · `NestJS` · `Go` · `PostgreSQL` · `Supabase` · `Docker` · `Oracle Cloud` · `Claude API` · `pgvector` · `n8n`
+
+<details>
+<summary><strong>Recent public activity</strong></summary>
+<br>
+
+<!-- AUTO:ACTIVITY:START -->
+- Jul 23, 2026: pushed 1 commit to [lanss-id/cfactory-image-processor](https://github.com/lanss-id/cfactory-image-processor).
+- Jul 17, 2026: pushed 1 commit to [lanss-id/lanss-id](https://github.com/lanss-id/lanss-id).
+- Jul 17, 2026: created a branch in [lanss-id/lanss-id](https://github.com/lanss-id/lanss-id).
+- Jul 17, 2026: pushed 1 commit to [lanss-id/koruptor-watchlist-ui](https://github.com/lanss-id/koruptor-watchlist-ui).
+- Jul 15, 2026: pushed 1 commit to [lanss-id/koruptor-watchlist-ui](https://github.com/lanss-id/koruptor-watchlist-ui).
+- Jul 14, 2026: pushed 1 commit to [lanss-id/koruptor-watchlist-ui](https://github.com/lanss-id/koruptor-watchlist-ui).
+<!-- AUTO:ACTIVITY:END -->
+
+</details>
+
+---
+
+<p align="center">
+  Fullstack engineering, AI integration, and automation — shipped solo, running in production.
+</p>
