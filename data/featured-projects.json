@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Trading Holic",
+    "repo": "lanss-id/Trading_Holic_Bot",
+    "url": "https://github.com/lanss-id/Trading_Holic_Bot",
+    "homepage": null,
+    "role": "Solo Builder",
+    "status": "Live · Self-hosted on Oracle Cloud",
+    "focus": "AI forex chart analysis",
+    "summary": "Reads forex chart screenshots through Claude Vision and turns them into structured trade analysis inside Telegram.",
+    "tags": ["AI Agents", "Computer Vision", "n8n", "Oracle Cloud", "pgvector"]
+  },
+  {
+    "name": "Koruptor Watchlist",
+    "repo": "lanss-id/koruptor-watchlist-ui",
+    "url": "https://github.com/lanss-id/koruptor-watchlist-ui",
+    "homepage": "https://koruptor-watchlist-ui.vercel.app",
+    "role": "Solo Builder",
+    "status": "Public Beta",
+    "focus": "Corruption case intelligence",
+    "summary": "Aggregates Indonesian corruption case reporting from news and official sources like KPK into one searchable dashboard.",
+    "tags": ["Data Aggregation", "AI Entity Extraction", "Next.js", "PostgreSQL"]
+  },
+  {
+    "name": "Government Budget Dashboard",
+    "repo": null,
+    "url": null,
+    "homepage": null,
+    "role": "Backend Engineer · Freelance",
+    "status": "Production · Confidential client",
+    "focus": "Government budget systems",
+    "summary": "Go microservices and dashboards built for Kemenag and Kemendag budget tracking, still running in production.",
+    "tags": ["Go Microservices", "Government Systems", "PostgreSQL", "Docker"]
+  },
+  {
+    "name": "Portfolio (mkp.dev)",
+    "repo": "lanss-id/simple-portofolio",
+    "url": "https://github.com/lanss-id/simple-portofolio",
+    "homepage": "https://portofolio-chi-teal-30.vercel.app",
+    "role": "Solo Builder",
+    "status": "Live · Migrating to mkp.dev",
+    "focus": "Case-study portfolio",
+    "summary": "Case-study driven portfolio built to international remote-hiring standards, moving to a custom mkp.dev domain.",
+    "tags": ["Next.js", "TypeScript", "Case Studies"]
+  },
+  {
+    "name": "Bank Transaction Clustering",
+    "repo": "lanss-id/clusternawasenafamiliaurban",
+    "url": "https://github.com/lanss-id/clusternawasenafamiliaurban",
+    "homepage": "https://clusternawasenafamiliaurban.vercel.app",
+    "role": "Solo Builder",
+    "status": "Completed · Dicoding ML submission",
+    "focus": "Clustering & classification",
+    "summary": "Clusters and classifies bank transaction data to surface fraud-risk patterns, submitted as a Dicoding ML capstone.",
+    "tags": ["Machine Learning", "Clustering", "Classification", "Python"]
+  }
+]
