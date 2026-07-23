@@ -98,10 +98,10 @@ const layouts = {
     visualPanel: { x: 14, y: 64, width: 488, height: 468, radius: 14 },
     infoPanel: { x: 508, y: 48, width: 655, height: 500, radius: 14 },
     visualTitle: { x: 30, y: 62 },
-    infoTitle: { x: 524, y: 62 },
+    infoTitle: { x: 524, y: 100 },
     portrait: { columns: 96, rows: 64, x: 78, y: 104, lineHeight: 6.65, fontSize: 6.5 },
     portraitClip: { x: 24, y: 82, width: 470, height: 438, radius: 12 },
-    system: { x: 528, y: 82, width: 620, lineHeight: 21.5, fontSize: 14 },
+    system: { x: 528, y: 125, width: 620, lineHeight: 21.5, fontSize: 14 },
     footerY: 585
   },
   mobile: {
@@ -112,10 +112,10 @@ const layouts = {
     visualPanel: { x: 48, y: 94, width: 624, height: 350, radius: 14 },
     infoPanel: { x: 48, y: 470, width: 624, height: 526, radius: 14 },
     visualTitle: { x: 66, y: 116 },
-    infoTitle: { x: 66, y: 492 },
+    infoTitle: { x: 66, y: 530 },
     portrait: { columns: 84, rows: 54, x: 180, y: 148, lineHeight: 5.7, fontSize: 6.6 },
     portraitClip: { x: 58, y: 122, width: 604, height: 312, radius: 12 },
-    system: { x: 72, y: 520, width: 574, lineHeight: 21, fontSize: 13 },
+    system: { x: 72, y: 565, width: 574, lineHeight: 21, fontSize: 13 },
     footerY: 1045
   }
 };
