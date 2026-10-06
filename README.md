@@ -52,7 +52,6 @@ Government and freelance work taught me the deeper constraints. Solo side projec
 <!-- AUTO:ACTIVITY:START -->
 - Sep 21, 2026: created a branch in [lanss-id/kitty-tmux-config](https://github.com/lanss-id/kitty-tmux-config).
 - Sep 12, 2026: pushed 1 commit to [lanss-id/simple-portofolio](https://github.com/lanss-id/simple-portofolio).
-- Sep 4, 2026: created a branch in [lanss-id/agent-inspect](https://github.com/lanss-id/agent-inspect).
 <!-- AUTO:ACTIVITY:END -->
 
 </details>
